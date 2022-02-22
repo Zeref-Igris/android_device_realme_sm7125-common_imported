@@ -1,0 +1,27 @@
+# Charger
+ro.charger.enable_suspend=true
+
+# Display
+vendor.display.disable_excl_rect_partial_fb=1
+debug.sf.disable_client_composition_cache=1
+vendor.display.disable_rotator_ubwc=1
+vendor.display.disable_hw_recovery_dump=1
+vendor.display.disable_rotator_downscale=1
+
+# Graphics
+debug.sf.latch_unsignaled=1
+ro.surface_flinger.has_HDR_display=false
+ro.surface_flinger.has_wide_color_display=false
+ro.surface_flinger.use_color_management=false
+
+# Pre-rendering
+ro.vendor.perf.scroll_opt=true
+
+# LMKD
+ro.config.low_ram=false
+
+# Incremental FS
+ro.incremental.enable=1
+
+# IORap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
