@@ -23,3 +23,11 @@ ro.config.low_ram=false
 
 # Incremental FS
 ro.incremental.enable=1
+
+# IORAP
+ro.iorapd.enable=true
+iorapd.readahead.enable=true
+iorapd.perfetto.enable=true
+
+# IORap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
