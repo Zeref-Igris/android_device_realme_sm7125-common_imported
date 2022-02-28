@@ -15,9 +15,6 @@ ro.surface_flinger.has_wide_color_display=false
 ro.surface_flinger.use_color_management=false
 ro.surface_flinger.protected_contents=true
 
-# Pre-rendering
-ro.vendor.perf.scroll_opt=true
-
 # LMKD
 ro.config.low_ram=false
 
