@@ -8,6 +8,12 @@ vendor.display.disable_rotator_ubwc=1
 vendor.display.disable_hw_recovery_dump=1
 vendor.display.disable_rotator_downscale=1
 
+
+# Render Engine
+debug.hwui.renderer=skiagl 
+debug.renderengine.backend=skiaglthreaded 
+renderthread.skia.reduceopstasksplitting=true
+
 # Graphics
 debug.sf.latch_unsignaled=1
 ro.surface_flinger.has_HDR_display=false
